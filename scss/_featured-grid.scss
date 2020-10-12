@@ -62,7 +62,12 @@
 
 .Featured__title {
   text-transform: capitalize;
+  font-size: 1.5em;
   font-weight: 900;
+}
+
+.Featured__title--major {
+  font-size: 2.5em;
 }
 
 .Featured__byline {
@@ -101,5 +106,9 @@
 
   .FirstSection {
     margin-top: 50px;
+  }
+
+  .Featured__title--major {
+    font-size: 1.5em;
   }
 }
