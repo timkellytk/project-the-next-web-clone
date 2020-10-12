@@ -9960,7 +9960,7 @@ h3 {
 
 .Nav__logo {
   display: none;
-  padding: 15px;
+  padding: 12px 20px;
   background-color: black;
 }
 
@@ -9982,6 +9982,7 @@ h3 {
   text-transform: uppercase;
   color: #aaa;
   font-weight: 500;
+  font-size: 0.85em;
   margin-right: 15px;
 }
 
