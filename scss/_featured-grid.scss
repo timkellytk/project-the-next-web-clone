@@ -109,6 +109,16 @@
   }
 
   .Featured__title--major {
-    font-size: 1.5em;
+    font-size: 1.2em;
+  }
+
+  .Featured__title {
+    text-transform: capitalize;
+    font-size: 1.2em;
+    font-weight: 900;
+  }
+
+  .Featured__byline {
+    font-size: 0.7em;
   }
 }
