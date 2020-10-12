@@ -1,6 +1,6 @@
 @import '../node_modules/bootstrap/scss/bootstrap';
 $tnw-black: #131313;
-$ntw-grey: rgba(255, 255, 255, 0.6);
+$ntw-grey: #aaa;
 
 .Nav {
   position: fixed;
@@ -16,17 +16,45 @@ $ntw-grey: rgba(255, 255, 255, 0.6);
   display: none;
 }
 
+.Nav__main {
+  display: flex;
+  justify-content: space-between;
+}
+
 .Nav__main-container {
   display: flex;
 }
 
 .Nav__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
   background-color: black;
 }
 
 .Nav__main-links {
   display: flex;
+  align-items: center;
   list-style: none;
+  margin-bottom: 0px;
+  padding-left: 25px;
+}
+
+.Nav__main-link {
+  text-transform: uppercase;
+  color: $ntw-grey;
+  font-weight: 500;
+  margin-right: 15px;
+}
+
+.Nav__main-link:hover {
+  color: $tnw-black;
+  text-decoration: none;
+}
+
+.Nav__main-icons {
+  padding: 0 20px;
 }
 
 @media (min-width: 768px) {
