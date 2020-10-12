@@ -5,10 +5,13 @@ $ntw-light-grey: #eee;
 $ntw-red: #ff4421;
 
 .Nav {
-  position: fixed;
   background: #ffffff;
   box-shadow: 0 0 32px rgba(0, 0, 0, 0.15);
   z-index: 10;
+}
+
+.Nav--fixed {
+  position: fixed;
   left: 0;
   right: 0;
   top: 0;
@@ -30,6 +33,10 @@ $ntw-red: #ff4421;
   z-index: 2;
 }
 
+.Nav__secondary--hidden {
+  display: none;
+}
+
 .Nav__general {
   display: flex;
 }
@@ -48,8 +55,13 @@ $ntw-red: #ff4421;
   text-decoration: none;
 }
 
+.Nav__small-link--last {
+  margin-right: 0px;
+}
+
 .Nav__main {
   display: flex;
+  min-height: 45px;
   justify-content: space-between;
 }
 
@@ -58,11 +70,15 @@ $ntw-red: #ff4421;
 }
 
 .Nav__logo {
+  display: none;
+  padding: 15px;
+  background-color: black;
+}
+
+.Nav__logo--show {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px;
-  background-color: black;
 }
 
 .Nav__main-links {
@@ -70,7 +86,7 @@ $ntw-red: #ff4421;
   align-items: center;
   list-style: none;
   margin-bottom: 0px;
-  padding-left: 25px;
+  padding-left: 20px;
 }
 
 .Nav__main-link {
@@ -118,4 +134,24 @@ $ntw-red: #ff4421;
 
 .Nav__mobile-toggle:hover {
   color: darken($ntw-red, 20);
+}
+
+@media (max-width: 768px) {
+  .Nav {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+  }
+  .Nav__secondary {
+    display: none;
+  }
+  .Nav__main-links {
+    display: none;
+  }
+  .Nav__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
