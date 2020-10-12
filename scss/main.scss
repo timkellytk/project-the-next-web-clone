@@ -2,19 +2,42 @@
 $tnw-black: #131313;
 $ntw-grey: rgba(255, 255, 255, 0.6);
 
+.Nav {
+  position: fixed;
+  background: #ffffff;
+  box-shadow: 0 0 32px rgba(0, 0, 0, 0.15);
+  z-index: 10;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
 .Nav__secondary {
   display: none;
+}
+
+.Nav__main-container {
+  display: flex;
+}
+
+.Nav__logo {
+  background-color: black;
+}
+
+.Nav__main-links {
+  display: flex;
+  list-style: none;
 }
 
 @media (min-width: 768px) {
   .Nav__secondary {
     display: flex;
     padding: 0px 20px;
+    margin-bottom: 0px;
     justify-content: space-between;
     width: 100%;
     list-style: none;
     background: $tnw-black;
-    color: $ntw-grey;
     font-size: 13px;
     font-weight: 500;
     line-height: 32px;
@@ -33,6 +56,12 @@ $ntw-grey: rgba(255, 255, 255, 0.6);
 
   .Nav__small-link {
     margin-right: 12px;
+    color: $ntw-grey;
+  }
+
+  .Nav__small-link:hover {
+    color: white;
+    text-decoration: none;
   }
 
   .nav-tnw {
