@@ -1,0 +1,17 @@
+.HeadingLink {
+  display: flex;
+  align-items: center;
+  color: $tnw-red;
+  font-weight: 700;
+}
+
+.HeadingLink:hover {
+  color: $tnw-black;
+  text-decoration: none;
+}
+
+.HeadingLink__icon {
+  font-size: 0.5em;
+  margin-left: 8px;
+  margin-top: 5px;
+}
