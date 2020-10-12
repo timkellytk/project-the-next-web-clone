@@ -9945,7 +9945,27 @@ h3 {
 }
 
 .Nav__main-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0px;
+  list-style: none;
+}
+
+.Nav__main-icon {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  border-left: 1px solid #eee;
   padding: 0 20px;
+}
+
+.Nav__search-icon {
+  color: #aaa;
+}
+
+.Nav__mobile-toggle {
+  color: #ff4421;
 }
 
 @media (min-width: 768px) {

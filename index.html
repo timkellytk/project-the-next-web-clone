@@ -9,6 +9,10 @@
       content="The Odin Project - HTML, CSS, SASS and Bootstrap clone of The Next Web's homepage"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="node_modules/@fortawesome/fontawesome-free/css/all.css"
+    />
     <link rel="stylesheet" href="css/output.css" />
   </head>
   <body>
@@ -45,8 +49,12 @@
           </ul>
         </div>
         <ul class="Nav__main-icons">
-          <li class="Nav__search-icon"></li>
-          <li class="Nav__mobile-toggle"></li>
+          <li class="Nav__main-icon">
+            <i class="Nav__search-icon fas fa-search"></i>
+          </li>
+          <li class="Nav__main-icon">
+            <i class="Nav__mobile-toggle fas fa-bars"></i>
+          </li>
         </ul>
       </div>
     </nav>

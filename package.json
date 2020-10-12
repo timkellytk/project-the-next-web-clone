@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/timkellytk/project-the-next-web-clone#readme",
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.1",
     "bootstrap": "^4.5.2"
   }
 }

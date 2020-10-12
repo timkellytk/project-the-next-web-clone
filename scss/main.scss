@@ -1,6 +1,8 @@
 @import '../node_modules/bootstrap/scss/bootstrap';
 $tnw-black: #131313;
 $ntw-grey: #aaa;
+$ntw-light-grey: #eee;
+$ntw-red: #ff4421;
 
 .Nav {
   position: fixed;
@@ -54,7 +56,28 @@ $ntw-grey: #aaa;
 }
 
 .Nav__main-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0px;
+
+  list-style: none;
+}
+
+.Nav__main-icon {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  border-left: 1px solid $ntw-light-grey;
   padding: 0 20px;
+}
+
+.Nav__search-icon {
+  color: $ntw-grey;
+}
+
+.Nav__mobile-toggle {
+  color: $ntw-red;
 }
 
 @media (min-width: 768px) {
