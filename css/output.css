@@ -9904,7 +9904,37 @@ h3 {
 }
 
 .Nav__secondary {
-  display: none;
+  display: flex;
+  padding: 0px 20px;
+  margin-bottom: 0px;
+  justify-content: space-between;
+  width: 100%;
+  list-style: none;
+  background: #131313;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 32px;
+  max-height: 32px;
+  position: relative;
+  z-index: 2;
+}
+
+.Nav__general {
+  display: flex;
+}
+
+.Nav__company {
+  display: flex;
+}
+
+.Nav__small-link {
+  margin-right: 12px;
+  color: #aaa;
+}
+
+.Nav__small-link:hover {
+  color: white;
+  text-decoration: none;
 }
 
 .Nav__main {
@@ -9962,57 +9992,20 @@ h3 {
 
 .Nav__search-icon {
   color: #aaa;
+  cursor: pointer;
+}
+
+.Nav__search-icon:hover {
+  color: #777777;
 }
 
 .Nav__mobile-toggle {
   color: #ff4421;
+  cursor: pointer;
 }
 
-@media (min-width: 768px) {
-  .Nav__secondary {
-    display: flex;
-    padding: 0px 20px;
-    margin-bottom: 0px;
-    justify-content: space-between;
-    width: 100%;
-    list-style: none;
-    background: #131313;
-    font-size: 13px;
-    font-weight: 500;
-    line-height: 32px;
-    max-height: 32px;
-    position: relative;
-    z-index: 2;
-  }
-
-  .Nav__general {
-    display: flex;
-  }
-
-  .Nav__company {
-    display: flex;
-  }
-
-  .Nav__small-link {
-    margin-right: 12px;
-    color: #aaa;
-  }
-
-  .Nav__small-link:hover {
-    color: white;
-    text-decoration: none;
-  }
-
-  .nav-tnw {
-    background: #131313;
-    display: block;
-    font-size: 13px;
-    font-weight: 500;
-    line-height: 32px;
-    max-height: 32px;
-    position: relative;
-    z-index: 2;
-  }
+.Nav__mobile-toggle:hover {
+  color: #ba1d00;
 }
 
 /*# sourceMappingURL=output.css.map */
