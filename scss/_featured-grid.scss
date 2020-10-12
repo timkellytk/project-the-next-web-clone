@@ -13,6 +13,11 @@
   color: white;
   position: relative;
   padding: 10px;
+  transition: filter 0.4s ease;
+}
+
+.Featured__article:hover {
+  filter: brightness(110%);
 }
 
 .Featured__article--major {
@@ -27,13 +32,7 @@
   top: 0%;
   bottom: 0%;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1));
-  opacity: 100%;
-  transition: opacity 0.4s ease;
   cursor: pointer;
-}
-
-.Featured__gradient:hover {
-  opacity: 90%;
 }
 
 .Featured__image {
