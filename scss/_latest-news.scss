@@ -52,3 +52,9 @@
   background-position: 50% 50%;
   background-size: cover;
 }
+
+@media (max-width: 768px) {
+  .LatestNews__grid {
+    grid-template-columns: 1fr;
+  }
+}

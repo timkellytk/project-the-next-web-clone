@@ -10232,4 +10232,10 @@ h3 {
   background-size: cover;
 }
 
+@media (max-width: 768px) {
+  .LatestNews__grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 /*# sourceMappingURL=output.css.map */
