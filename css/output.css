@@ -10247,5 +10247,27 @@ h3 {
     grid-template-columns: 1fr;
   }
 }
+.Funding__heading-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Funding__heading-links {
+  margin-top: 8px;
+}
+
+.Funding__heading-link {
+  color: #ff4421;
+}
+
+.Funding__heading-link:hover {
+  color: #131313;
+  text-decoration: none;
+}
+
+.Funding__heading-divider {
+  color: #ff4421;
+  margin: 0 5px;
+}
 
 /*# sourceMappingURL=output.css.map */

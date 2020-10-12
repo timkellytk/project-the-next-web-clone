@@ -1,0 +1,22 @@
+.Funding__heading-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Funding__heading-links {
+  margin-top: 8px;
+}
+
+.Funding__heading-link {
+  color: $tnw-red;
+}
+
+.Funding__heading-link:hover {
+  color: $tnw-black;
+  text-decoration: none;
+}
+
+.Funding__heading-divider {
+  color: $tnw-red;
+  margin: 0 5px;
+}
