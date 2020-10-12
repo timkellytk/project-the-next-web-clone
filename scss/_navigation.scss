@@ -1,0 +1,151 @@
+.Nav {
+  background: #ffffff;
+  box-shadow: 0 0 32px rgba(0, 0, 0, 0.15);
+  z-index: 10;
+}
+
+.Nav--fixed {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+.Nav__secondary {
+  display: flex;
+  padding: 0px $nav-padding;
+  margin-bottom: 0px;
+  justify-content: space-between;
+  width: 100%;
+  list-style: none;
+  background: $tnw-black;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 32px;
+  max-height: 32px;
+  position: relative;
+  z-index: 2;
+}
+
+.Nav__secondary--hidden {
+  display: none;
+}
+
+.Nav__general {
+  display: flex;
+}
+
+.Nav__company {
+  display: flex;
+}
+
+.Nav__small-link {
+  margin-right: 12px;
+  color: $ntw-grey;
+}
+
+.Nav__small-link:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.Nav__small-link--last {
+  margin-right: 0px;
+}
+
+.Nav__main {
+  display: flex;
+  min-height: 45px;
+  justify-content: space-between;
+}
+
+.Nav__main-container {
+  display: flex;
+}
+
+.Nav__logo {
+  display: none;
+  padding: 15px;
+  background-color: black;
+}
+
+.Nav__logo--show {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Nav__main-links {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin-bottom: 0px;
+  padding-left: $nav-padding;
+}
+
+.Nav__main-link {
+  text-transform: uppercase;
+  color: $ntw-grey;
+  font-weight: 500;
+  margin-right: 15px;
+}
+
+.Nav__main-link:hover {
+  color: $tnw-black;
+  text-decoration: none;
+}
+
+.Nav__main-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0px;
+
+  list-style: none;
+}
+
+.Nav__main-icon {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  border-left: 1px solid $ntw-light-grey;
+  padding: 0 $nav-padding;
+}
+
+.Nav__search-icon {
+  color: $ntw-grey;
+  cursor: pointer;
+}
+
+.Nav__search-icon:hover {
+  color: darken($ntw-grey, 20);
+}
+
+.Nav__mobile-toggle {
+  color: $ntw-red;
+  cursor: pointer;
+}
+
+.Nav__mobile-toggle:hover {
+  color: darken($ntw-red, 20);
+}
+
+@media (max-width: 768px) {
+  .Nav {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+  }
+  .Nav__secondary {
+    display: none;
+  }
+  .Nav__main-links {
+    display: none;
+  }
+  .Nav__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
