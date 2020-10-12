@@ -1,3 +1,5 @@
+$nav-padding: 20px;
+
 .Nav {
   background: #ffffff;
   box-shadow: 0 0 32px rgba(0, 0, 0, 0.15);
@@ -41,7 +43,7 @@
 
 .Nav__small-link {
   margin-right: 12px;
-  color: $ntw-grey;
+  color: $tnw-grey;
 }
 
 .Nav__small-link:hover {
@@ -85,7 +87,7 @@
 
 .Nav__main-link {
   text-transform: uppercase;
-  color: $ntw-grey;
+  color: $tnw-grey;
   font-weight: 500;
   margin-right: 15px;
 }
@@ -108,26 +110,26 @@
   display: flex;
   align-items: center;
   height: 100%;
-  border-left: 1px solid $ntw-light-grey;
+  border-left: 1px solid $tnw-light-grey;
   padding: 0 $nav-padding;
 }
 
 .Nav__search-icon {
-  color: $ntw-grey;
+  color: $tnw-grey;
   cursor: pointer;
 }
 
 .Nav__search-icon:hover {
-  color: darken($ntw-grey, 20);
+  color: darken($tnw-grey, 20);
 }
 
 .Nav__mobile-toggle {
-  color: $ntw-red;
+  color: $tnw-red;
   cursor: pointer;
 }
 
 .Nav__mobile-toggle:hover {
-  color: darken($ntw-red, 20);
+  color: darken($tnw-red, 20);
 }
 
 @media (max-width: 768px) {
