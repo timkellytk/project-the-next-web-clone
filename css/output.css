@@ -10552,6 +10552,7 @@ h3 {
   height: 200px;
   background-position: 50% 50%;
   background-size: cover;
+  position: relative;
 }
 
 .Deals__image--1 {
@@ -10611,6 +10612,16 @@ h3 {
   font-size: 0.8em;
   text-decoration: line-through;
   margin-right: 4px;
+}
+
+@media (max-width: 768px) {
+  .Deals__image {
+    height: 100%;
+  }
+
+  .Deals__discount {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=output.css.map */
