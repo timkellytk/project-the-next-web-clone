@@ -10523,8 +10523,14 @@ h3 {
 
 .Category__news-divider {
   margin: 10px 0px;
-  width: 107%;
-  margin-left: -7%;
+  width: 105.5%;
+  margin-left: -5.5%;
+}
+
+@media (max-width: 768px) {
+  .Categories__grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 /*# sourceMappingURL=output.css.map */
