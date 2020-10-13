@@ -10114,7 +10114,7 @@ h3 {
 }
 
 .Featured__image1 {
-  background-image: url(../assets//featured-image/feature1.png);
+  background-image: url(../assets/featured-image/feature1.png);
 }
 
 .Featured__header {
@@ -10382,6 +10382,117 @@ h3 {
   .Funding__grid {
     grid-template-columns: 1fr;
   }
+}
+.Categories__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  list-style: none;
+  padding-left: 0px;
+}
+
+.Categories__feature-article {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  min-height: 300px;
+  color: white;
+  position: relative;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.Categories__feature-gradient {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1));
+  cursor: pointer;
+}
+
+.Categories__feature-image {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  background-size: cover;
+  background-position: 50% 50%;
+  z-index: -2;
+}
+
+.Categories__image1 {
+  background-image: url(../assets/categories1.jpeg);
+}
+
+.Categories__header {
+  z-index: 1;
+  cursor: pointer;
+}
+
+.Categories__category {
+  text-transform: uppercase;
+  font-size: 0.9em;
+}
+
+.Categories__title {
+  text-transform: capitalize;
+  font-size: 1.3em;
+  font-weight: 900;
+}
+
+.LatestNews__byline {
+  display: flex;
+  color: #aaa;
+  font-size: 12px;
+  line-height: 18px;
+  padding-top: 4px;
+  list-style: none;
+  padding-left: 0px;
+  margin-bottom: 0px;
+}
+.LatestNews__byline li:first-child:after {
+  content: "·";
+  display: block;
+  float: right;
+  margin: 0 4px;
+}
+
+.Category__latest-grid {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  color: #ff4421;
+  background-color: #ffece8;
+  min-height: 100px;
+}
+
+.Category__latest-header {
+  padding: 15px;
+}
+
+.Category__latest-tag {
+  text-transform: uppercase;
+  font-size: 0.8em;
+  font-weight: 500;
+}
+
+.Category__latest-title {
+  color: #ff4421;
+  font-size: 0.8em;
+  font-weight: 900;
+}
+
+.Category__latest-title:hover {
+  color: #ff6f54;
+  text-decoration: none;
+}
+
+.Category__latest-image {
+  background-image: url(../assets/categories-latest1.jpg);
+  background-position: 50% 50%;
+  background-size: cover;
 }
 
 /*# sourceMappingURL=output.css.map */
