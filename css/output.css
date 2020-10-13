@@ -10503,12 +10503,13 @@ h3 {
   content: "•";
   color: #ff4421;
   display: inline-block;
+  font-weight: bold;
   width: 1em;
   margin-left: -1.3em;
 }
 
 .Category__news-bullet {
-  margin-top: 10px;
+  margin-top: 5px;
   font-size: 0.8em;
 }
 
@@ -10522,7 +10523,7 @@ h3 {
 }
 
 .Category__news-divider {
-  margin: 10px 0px;
+  margin: 5px 0px;
   width: 105.5%;
   margin-left: -5.5%;
 }
