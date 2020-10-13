@@ -10533,5 +10533,73 @@ h3 {
     grid-template-columns: 1fr;
   }
 }
+.Deals__item {
+  position: relative;
+}
+
+.Deals__image {
+  height: 200px;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.Deals__image--1 {
+  background-image: url(../assets/deal1.jpg);
+}
+
+.Deals__discount {
+  background-image: url(../assets/deals-ribbon.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: #000;
+  display: block;
+  height: 80px;
+  overflow: hidden;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 80px;
+  z-index: 10;
+}
+
+.Deals__discount-amount {
+  transform: rotate(45deg);
+  font-size: 0.9em;
+  font-weight: 700;
+  left: 8px;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  top: 20px;
+  width: 100%;
+}
+
+.Deals__title {
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 4px;
+}
+
+.Deals__title:hover {
+  color: #ff4421;
+}
+
+.Deals__link {
+  color: #131313;
+  text-decoration: none;
+}
+
+.Deals__link:hover {
+  text-decoration: none;
+  color: #ff4421;
+}
+
+.Deals__old-price {
+  color: #aaa;
+  font-size: 0.8em;
+  text-decoration: line-through;
+  margin-right: 4px;
+}
 
 /*# sourceMappingURL=output.css.map */
