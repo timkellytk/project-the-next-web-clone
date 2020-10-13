@@ -10316,6 +10316,8 @@ h3 {
 }
 
 .Funding__story-card {
+  display: flex;
+  flex-direction: column;
   padding: 15px;
 }
 
@@ -10355,6 +10357,16 @@ h3 {
 
 .Funding__story-title-link--source {
   color: #aaa;
+}
+
+@media (max-width: 768px) {
+  .Funding__heading-flex {
+    flex-direction: column;
+  }
+
+  .Funding__grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 /*# sourceMappingURL=output.css.map */

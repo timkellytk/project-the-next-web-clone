@@ -69,6 +69,8 @@ $funding__story-padding: 11px 16px 11px 90px;
 }
 
 .Funding__story-card {
+  display: flex;
+  flex-direction: column;
   padding: 15px;
 }
 
@@ -108,4 +110,14 @@ $funding__story-padding: 11px 16px 11px 90px;
 
 .Funding__story-title-link--source {
   color: $tnw-grey;
+}
+
+@media (max-width: 768px) {
+  .Funding__heading-flex {
+    flex-direction: column;
+  }
+
+  .Funding__grid {
+    grid-template-columns: 1fr;
+  }
 }
