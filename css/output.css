@@ -10635,9 +10635,11 @@ h3 {
   align-items: center;
 }
 
-.Footer__icon-list {
+.Footer__list {
   display: flex;
+  flex-wrap: wrap;
   list-style: none;
+  padding-top: 10px;
   padding-left: 0px;
 }
 
@@ -10658,6 +10660,32 @@ h3 {
   color: white;
   background: transparent;
   box-shadow: inset 0 0 0 2px #333;
+}
+
+.Footer__link {
+  color: #aaa;
+  font-weight: 500;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0px 5px;
+}
+
+.Footer__link:hover {
+  text-decoration: none;
+  color: #777777;
+}
+
+.Footer__secondary {
+  color: white;
+  background-color: black;
+  padding: 30px 0px;
+}
+
+.Footer__copyright {
+  color: #aaa;
+  text-align: center;
+  font-size: 0.8em;
 }
 
 /*# sourceMappingURL=output.css.map */
