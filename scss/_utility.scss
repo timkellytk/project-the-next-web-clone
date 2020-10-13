@@ -15,3 +15,27 @@
   margin-left: 8px;
   margin-top: 5px;
 }
+
+.HeadingLink__flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.HeadingLink__small-links {
+  margin-top: 8px;
+}
+
+.HeadingLink__small-link {
+  color: $tnw-red;
+}
+
+.HeadingLink__small-link:hover {
+  color: $tnw-black;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .HeadingLink__flex-container {
+    flex-direction: column;
+  }
+}

@@ -1,21 +1,3 @@
-.Funding__heading-flex {
-  display: flex;
-  justify-content: space-between;
-}
-
-.Funding__heading-links {
-  margin-top: 8px;
-}
-
-.Funding__heading-link {
-  color: $tnw-red;
-}
-
-.Funding__heading-link:hover {
-  color: $tnw-black;
-  text-decoration: none;
-}
-
 .Funding__heading-divider {
   color: $tnw-red;
   margin: 0 5px;
@@ -128,10 +110,6 @@ $funding__story-padding: 11px 16px 11px 90px;
 }
 
 @media (max-width: 768px) {
-  .Funding__heading-flex {
-    flex-direction: column;
-  }
-
   .Funding__grid {
     grid-template-columns: 1fr;
   }
