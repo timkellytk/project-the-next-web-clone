@@ -10283,6 +10283,15 @@ h3 {
   background-color: #fffaf7;
 }
 
+.Funding__story-company {
+  color: #131313;
+}
+
+.Funding__story-company:hover {
+  color: #131313;
+  text-decoration: none;
+}
+
 .Funding__story-image {
   height: 60px;
   width: 60px;
@@ -10313,6 +10322,12 @@ h3 {
   font-weight: 300;
   text-transform: uppercase;
   margin-bottom: 5px;
+}
+
+.Funding__story-card {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
 }
 
 .Funding__story-card {
