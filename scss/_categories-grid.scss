@@ -85,7 +85,7 @@
 }
 
 .Category__latest-header {
-  padding: 15px;
+  padding: 10px 15px;
 }
 
 .Category__latest-tag {
@@ -109,4 +109,37 @@
   background-image: url(../assets/categories-latest1.jpg);
   background-position: 50% 50%;
   background-size: cover;
+}
+
+.Category__news-list {
+  list-style: none;
+  padding-left: 20px;
+
+  li::before {
+    content: '\2022';
+    color: $tnw-red;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1.3em;
+  }
+}
+
+.Category__news-bullet {
+  margin-top: 10px;
+  font-size: 0.8em;
+}
+
+.Category__news-bullet-link {
+  color: $tnw-black;
+}
+
+.Category__news-bullet-link:hover {
+  color: lighten($tnw-black, 20);
+  text-decoration: none;
+}
+
+.Category__news-divider {
+  margin: 10px 0px;
+  width: 107%;
+  margin-left: -7%;
 }
