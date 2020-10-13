@@ -10270,4 +10270,91 @@ h3 {
   margin: 0 5px;
 }
 
+.Funding__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  list-style: none;
+  padding-left: 0px;
+}
+
+.Funding__story {
+  position: relative;
+  background-color: #fffaf7;
+}
+
+.Funding__story-image {
+  height: 60px;
+  width: 60px;
+  position: absolute;
+  margin: 15px;
+}
+
+.Funding__story-name {
+  padding: 11px 16px 11px 90px;
+  color: white;
+  font-weight: 700;
+  background-color: #ff4421;
+  margin: 0px;
+}
+
+.Funding__story-deets {
+  background-color: #ffece8;
+  padding: 11px 16px 11px 90px;
+}
+
+.Funding__story-amount {
+  font-weight: 900;
+  margin-bottom: 0px;
+}
+
+.Funding__story-series {
+  font-size: 0.8em;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.Funding__story-card {
+  padding: 15px;
+}
+
+.Funding__story-tag {
+  display: inline-block;
+  color: #131313;
+  font-size: 0.85em;
+  font-weight: 300;
+  margin-bottom: 8px;
+  opacity: 80%;
+}
+
+.Funding__story-tag:hover {
+  opacity: 100%;
+  color: #131313;
+  text-decoration: none;
+}
+
+.Funding__story-tag-icon {
+  margin-right: 8px;
+}
+
+.Funding__story-card-divider {
+  margin: 0;
+  background-color: #ffc5ba;
+}
+
+.Funding__story-title-link {
+  color: #131313;
+  font-size: 0.8em;
+}
+
+.Funding__story-title-link:hover {
+  color: #131313;
+  text-decoration: none;
+}
+
+.Funding__story-title-link--source {
+  color: #aaa;
+}
+
 /*# sourceMappingURL=output.css.map */
