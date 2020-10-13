@@ -34,7 +34,7 @@
   text-decoration: none;
 }
 
-.Grid__4 {
+.Grid4 {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 20px;
@@ -43,11 +43,20 @@
 }
 
 @media (max-width: 768px) {
+}
+
+@media (max-width: 768px) {
   .HeadingLink__flex-container {
     flex-direction: column;
   }
 
-  .Grid__4 {
+  .Grid4 {
     grid-template-columns: 1fr;
+  }
+
+  .Grid4__item {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 15px;
   }
 }

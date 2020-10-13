@@ -44,3 +44,9 @@
   background-position: 50% 50%;
   background-size: cover;
 }
+
+@media (max-width: 768px) {
+  .LatestNews__story-image {
+    height: 100%;
+  }
+}
