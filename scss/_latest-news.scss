@@ -1,11 +1,3 @@
-.LatestNews__grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 20px;
-  list-style: none;
-  padding-left: 0px;
-}
-
 .LatestNews__story {
   color: $tnw-black;
   text-decoration: none;
@@ -51,10 +43,4 @@
   background: url(../assets/latest-news1.png);
   background-position: 50% 50%;
   background-size: cover;
-}
-
-@media (max-width: 768px) {
-  .LatestNews__grid {
-    grid-template-columns: 1fr;
-  }
 }

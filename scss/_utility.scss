@@ -34,8 +34,20 @@
   text-decoration: none;
 }
 
+.Grid__4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  list-style: none;
+  padding-left: 0px;
+}
+
 @media (max-width: 768px) {
   .HeadingLink__flex-container {
     flex-direction: column;
+  }
+
+  .Grid__4 {
+    grid-template-columns: 1fr;
   }
 }

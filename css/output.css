@@ -9929,9 +9929,21 @@ h3 {
   text-decoration: none;
 }
 
+.Grid__4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  list-style: none;
+  padding-left: 0px;
+}
+
 @media (max-width: 768px) {
   .HeadingLink__flex-container {
     flex-direction: column;
+  }
+
+  .Grid__4 {
+    grid-template-columns: 1fr;
   }
 }
 .Nav {
@@ -10211,14 +10223,6 @@ h3 {
     font-size: 0.7em;
   }
 }
-.LatestNews__grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 20px;
-  list-style: none;
-  padding-left: 0px;
-}
-
 .LatestNews__story {
   color: #131313;
   text-decoration: none;
@@ -10265,11 +10269,6 @@ h3 {
   background-size: cover;
 }
 
-@media (max-width: 768px) {
-  .LatestNews__grid {
-    grid-template-columns: 1fr;
-  }
-}
 .Funding__heading-divider {
   color: #ff4421;
   margin: 0 5px;
